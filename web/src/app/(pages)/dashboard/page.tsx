@@ -1,27 +1,16 @@
 import { Metadata } from "next"
 import Image from "next/image"
 
-import { Button } from "@/registry/new-york/ui/button"
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/registry/new-york/ui/card"
-import {
-  Tabs,
-  TabsContent,
-  TabsList,
-  TabsTrigger,
-} from "@/registry/new-york/ui/tabs"
-import { CalendarDateRangePicker } from "@/app/examples/dashboard/components/date-range-picker"
-import { MainNav } from "@/app/examples/dashboard/components/main-nav"
-import { Overview } from "@/app/examples/dashboard/components/overview"
-import { RecentSales } from "@/app/examples/dashboard/components/recent-sales"
-import { Search } from "@/app/examples/dashboard/components/search"
-import TeamSwitcher from "@/app/examples/dashboard/components/team-switcher"
-import { UserNav } from "@/app/examples/dashboard/components/user-nav"
+import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { CalendarDateRangePicker } from "@/components/dashboard/date-range-picker"
+import { MainNav } from "@/components/dashboard/main-nav"
+import { Overview } from "@/components/dashboard/overview"
+import { RecentSales } from "@/components/dashboard/recent-sales"
+import { Search } from "@/components/dashboard/search"
+import TeamSwitcher from "@/components/dashboard/team-switcher"
+import { UserNav } from "@/components/dashboard/user-nav"
 
 export const metadata: Metadata = {
   title: "Dashboard",
